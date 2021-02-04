@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FlareByAttributeService < ApplicationService
   def initialize(attribute, year: nil, filtering: nil)
     @year = year

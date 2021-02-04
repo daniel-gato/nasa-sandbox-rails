@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Nasa
   include HTTParty
   base_uri 'https://api.nasa.gov'

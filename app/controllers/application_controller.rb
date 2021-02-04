@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::API
   def _render
     response.set_header('x-ratelimit-limit', @service[:limit])

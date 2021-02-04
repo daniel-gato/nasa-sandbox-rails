@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FlaresService < ApplicationService
   def initialize(year = nil)
     @year = year || 2020
