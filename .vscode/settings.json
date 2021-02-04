@@ -1,0 +1,131 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "full",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80, 100, 120],
+    "editor.tabSize": 2,
+    "files.maxMemoryForLargeFilesMB": 10096,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.lint": {
+      "rubocop": {
+        "forceExclusion": true
+      },
+      "reek": false
+    },
+    "ruby.lintDebounceTime": 500,
+    "ruby.locate": {
+      "include": "**/*.rb",
+      "exclude": "{**/@(test|spec|tmp|db|.*),**/@(test|spec|tmp|db|.*)/**,**/*_spec.rb}"
+    },
+    "ruby.useLanguageServer": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.maxFilesForSearch": 512000,
+  
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[ruby]": {
+      "editor.defaultFormatter": "rebornix.ruby"
+    },
+    "todohighlight.keywords": [
+      {
+        "text": "rubocop:disable",
+        "color": "red",
+        "backgroundColor": "transparent"
+      },
+      {
+        "text": "NOTE:",
+        "color": "white",
+        "backgroundColor": "#01579B"
+      },
+      {
+        "text": "TODO:",
+        "color": "white",
+        "backgroundColor": "#33691E"
+      },
+      {
+        "text": "FIXME:",
+        "color": "white",
+        "backgroundColor": "#b71c1c"
+      },
+      {
+        "text": "HACK:",
+        "color": "white",
+        "backgroundColor": "#E65100"
+      },
+      {
+        "text": "GOTO:",
+        "color": "white",
+        "backgroundColor": "#E65100"
+      },
+      {
+        "text": "STUB:",
+        "color": "white",
+        "backgroundColor": "#FA8072"
+      },
+      {
+        "text": "OPTIMIZE:",
+        "color": "white",
+        "backgroundColor": "#827717"
+      },
+      {
+        "text": "REVIEW:",
+        "color": "white",
+        "backgroundColor": "#4A148C"
+      },
+      {
+        "text": "[NOTE]",
+        "color": "white",
+        "backgroundColor": "#01579B",
+        "isWholeLine": true
+      },
+      {
+        "text": "[TODO]",
+        "color": "white",
+        "backgroundColor": "#33691E",
+        "isWholeLine": true
+      },
+      {
+        "text": "[FIXME]",
+        "color": "white",
+        "backgroundColor": "#b71c1c",
+        "isWholeLine": true
+      },
+      {
+        "text": "[HACK]",
+        "color": "white",
+        "backgroundColor": "#E65100",
+        "isWholeLine": true
+      },
+      {
+        "text": "[OPTIMIZE]",
+        "color": "white",
+        "backgroundColor": "#827717",
+        "isWholeLine": true
+      },
+      {
+        "text": "[REVIEW]",
+        "color": "white",
+        "backgroundColor": "#4A148C",
+        "isWholeLine": true
+      },
+      {
+        "text": "[GRAVEYARD]",
+        "color": "white",
+        "backgroundColor": "black",
+        "isWholeLine": true
+      }
+    ]
+  }
+  
