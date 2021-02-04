@@ -9,14 +9,8 @@ class FlaresService < ApplicationService
   end
 
   def call
-    query_cache_or_remote
-  end
-
-  def query_cache_or_remote
     Nasa.new.flares(*dates)
   end
-
-  def cache_id; end
 
   def dates
     return [] if @year.blank?
